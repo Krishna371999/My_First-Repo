@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd/var/log/
+cat messages | grep -E "Dec 17" | more
+rm -rf log.*{000000217..000002257}.gz
+df -h	
