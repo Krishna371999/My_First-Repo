@@ -2,5 +2,5 @@
 
 cd/var/log/
 cat messages | grep -E "Dec 17" | more
-rm -rf log.*{000000217..000002257}.gz
-df -h	
+cat messages | grep -E "Dec 17" > serverdown.txt
+cat messages | grep -E "Dec 17 17:32:00"
