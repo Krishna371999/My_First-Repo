@@ -10,4 +10,7 @@ SOURCEFOLDER=/home/USER/Documents
 
 # the backup command
 
-tar -cpzf $DESTINATION $SOURCEFOLDER #create the backup
+#tar -cpzf $DESTINATION $SOURCEFOLDER #create the backup
+
+#cd /var/log/messages
+
