@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# set variables for data, destination, and source
+
+BACKUPDATE=`date +%b-%d-%y` 
+
+DESTINATION=/media/USER/data/DOCUMENTS-$BACKUPDATE.tar.gz 
+
+SOURCEFOLDER=/home/USER/Documents 
+
+# the backup command
+
+tar -cpzf $DESTINATION $SOURCEFOLDER #create the backup
