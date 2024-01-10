@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd messages | grep -E "Dec 17"
