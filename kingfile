@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /var/lib/ldap
+ls -ltr | cat log.{0000001..00000024}
+exit
